@@ -1,0 +1,3 @@
+<button type="button" class="btn btn-primary ml3px" *ngFor="let letter of alphabet" (click)="selectLetter(letter)" [disabled]="sl.includes(letter)">
+    {{letter}}
+</button>

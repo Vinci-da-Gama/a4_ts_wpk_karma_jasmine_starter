@@ -8,4 +8,10 @@ declare var app: {
 	environment: string
 }
 
-declare function require(id: string): any;
+// declare function require(id: string): any;
+interface WebpackRequire {
+	(id: string): any;
+	context(directory: string, useSubdirectories: boolean, pattern: RegExp): any;
+}
+
+declare var require: WebpackRequire

@@ -12,7 +12,7 @@ npm uninstall --save-dev jquery moment
 
 typescript2.4.1(has bug)
 
-npm i -D typescript@2.3.4 tslint codelyzer @types/core-js path cross-env ts-node @types/jasmine @types/node  file-loader jasmine-core
+npm i -D typescript@^2.4.0 tslint codelyzer @types/core-js path cross-env ts-node @types/jasmine @types/node  file-loader jasmine-core karma karma-jasmine karma-webpack phantomjs karma-phantomjs-launcher karma-safari-launcher karma-chrome-launcher karma-coverage
 
 webpack@2.6.1
 
@@ -24,7 +24,7 @@ npm i -D webpack webpack-dev-server webpack-dev-middleware webpack-merge html-we
 
 //////// @ngtools/webpack @angular/compiler-cli @angular/platform-server
 
-npm uninstall --save-dev typescript tslint codelyzer @types/core-js path webpack webpack-dev-server webpack-dev-middleware webpack-merge style-loader css-loader sass-loader node-sass less less-loader angular2-template-loader cross-env html-webpack-plugin raw-loader ts-loader ts-node @types/jasmine @types/node jasmine-core extract-text-webpack-plugin write-file-webpack-plugin clean-webpack-plugin copy-webpack-plugin html-minifier compression-webpack-plugin uglifyjs-webpack-plugin @types/webpack file-loader
+npm uninstall --save-dev typescript tslint codelyzer @types/core-js path webpack webpack-dev-server webpack-dev-middleware webpack-merge style-loader css-loader sass-loader node-sass less less-loader angular2-template-loader cross-env html-webpack-plugin raw-loader ts-loader ts-node @types/jasmine @types/node jasmine-core karma karma-jasmine karma-webpack phantomjs karma-phantomjs-launcher karma-safari-launcher karma-chrome-launcher karma-coverage extract-text-webpack-plugin write-file-webpack-plugin clean-webpack-plugin copy-webpack-plugin html-minifier compression-webpack-plugin uglifyjs-webpack-plugin @types/webpack file-loader
 
 angular 4 events
 (focus)="myMethod()"  // An element has received focus

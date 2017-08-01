@@ -1,31 +1,31 @@
 {
-	"compilerOptions": {
-		"rootDir": "./src",
-		"outDir": "./dist",
-		"target": "es5",
-		"sourceMap": true,
-		"declaration": false,
-		"emitDecoratorMetadata": true,
-		"experimentalDecorators": true,
-		"noImplicitAny": true,
-		"removeComments": true,
-		"downlevelIteration": true,
-		"lib": ["es2015", "es2016", "dom"],
-		"strict": true,
-		"strictNullChecks": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-		"noImplicitReturns": true,
-		// you will remove this, it is just for setting stage.
-		// "skipLibCheck": true,
-		"types": [
-			"core-js"
-		]
-	},
-	"exclude": [
-		"node_modules",
-		"typings/main",
-		"typings/main.d.ts"
-	],
-	"compileOnSave": false
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "target": "es5",
+        "sourceMap": true,
+        "declaration": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "downlevelIteration": true,
+        "lib": ["es2015", "es2016", "dom"],
+        "strict": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        // you will remove this, it is just for setting stage.
+        // "skipLibCheck": true,
+        "types": [
+            "core-js"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "typings/main",
+        "typings/main.d.ts"
+    ],
+    "compileOnSave": false
 }

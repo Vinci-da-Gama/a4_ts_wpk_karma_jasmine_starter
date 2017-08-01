@@ -1,42 +1,29 @@
 <div class="container">
-    <p class="font-color">
-        Hello World!!!
-    </p>
-    <cite><code>try use angular-ui-bootstrap and aviod use jquery</code></cite>
+    <app-top-navbar></app-top-navbar>
+    <p class="font-color">Hello World!!!</p>
+    <cite>
+        <code>try use angular-ui-bootstrap and aviod use jquery</code>
+    </cite>
+</div>
 
-    <div class="navbar navbar-default" role="navigation">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".testNavbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Haha-cao</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse testNavbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="#">Link</a>
-                </li>
-                <li>
-                    <a href="#">Link</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-
+<div class="container">
     <div class="row">
         <div class="col-xs-12 col-sm-6">
-            <img src="./imgs/flags.jpg" class="img-responsive" alt="flags0" />
+            <img src="./imgs/flags.jpg" class="img-responsive margin-center" alt="flags0" />
         </div>
         <div class="col-xs-12 col-sm-6">
-            <img src="./imgs/flags.jpg" class="img-responsive" alt="flags1" />
+            <img src="./imgs/flags.jpg" class="img-responsive margin-center" alt="flags1" />
         </div>
     </div>
-
 </div>
+
+<div class="container">
+    <h2>Guess Chrarctor <small>This is the Unit Test Sample</small></h2>
+    <p>
+        {{testingword | mask: selection}}
+    </p>
+    <letter-selection-buttons (letterEmit)="UpdateSelection($event)">
+    </letter-selection-buttons>
+</div>
+
+<router-outlet></router-outlet>
