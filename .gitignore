@@ -4,3 +4,4 @@ typings/
 package.json
 npm-debug.*
 /coverage/
+/.chrome/
